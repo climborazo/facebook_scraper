@@ -35,8 +35,8 @@ playwright install chromium
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip chromium-browser
 
-git clone https://github.com/<your-user>/facebook_scraper_final.git
-cd facebook_scraper_final
+git clone [https://github.com/<your-user>/facebook_scraper_final.git](https://github.com/climborazo/facebook_scraper.git)
+cd facebook_scraper
 
 python3 -m venv .venv
 . .venv/bin/activate
@@ -48,7 +48,7 @@ Create a simple launcher for Chromium:
 
 ```bash
 echo '#!/bin/bash
-nohup chromium --remote-debugging-port=9222 >/dev/null 2>&1 & disown' > run_chromium.sh
+nohup chromium --remote-debugging-port=9222 >/dev/null 2>&1 & disown' > chromium.sh
 chmod +x chromium.sh
 ```
 
