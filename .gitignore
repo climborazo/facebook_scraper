@@ -5,3 +5,4 @@ __pycache__/**
 .git/
 .git/**
 reports**
+facebook_scraper_ori.py
